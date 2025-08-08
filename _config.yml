@@ -6,7 +6,7 @@ baseurl: ""
 url: "https://timotheus.arndt.xyz"
 
 # Build settings
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:day/:title/
 timezone: Europe/Berlin
 markdown: kramdown
 kramdown:
