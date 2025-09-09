@@ -10,9 +10,9 @@ description: ""
   <div class="post">
     <header class="post-header">
       <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <div class="date">{{ post.date | date: "%Y-%m-%d" }}</div>
     </header>
     {{post.content}}
+  <div class="date"><em></em>Beitrag veröffentlicht am: {{ post.date | date: "%Y-%m-%d" }}</em></div>
   </div>
   {% endfor %}
 </div>
